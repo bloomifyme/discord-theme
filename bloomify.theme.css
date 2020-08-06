@@ -1,0 +1,24 @@
+//META{ "name": "bloomify", "description": "https://bloomify.me", "author": "ixangel", "version": "4" }*//
+
+/* 
+
+   bloomify: bloomify your dreams.
+   
+   https://bloomify.me
+   
+ */
+
+@import url('https://cdn.bloomify.me/themeengine/core.css');
+
+:root
+{
+	/* Uncomment the section below to change background image */
+/*
+  --backgroundColor: #000000;
+  --backgroundImage: url('https://cdnb.artstation.com/p/assets/images/images/028/391/909/large/marina-krivenko-village-matte-painting-07.jpg?1594329034&dl=1');
+  --backgroundPosition: center;
+  --backgroundSize: cover;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 0px;
+  --backgroundOpacity: .4;
+*/
