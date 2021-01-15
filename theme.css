@@ -364,7 +364,7 @@
 .card-3Qj_Yx{
     background: #fff2;
     border-radius: 10px;
-    border: none;
+    border: none;1t
 }
 .background-1QDuV2{
     background: #fff2;
@@ -433,11 +433,11 @@
 }
 
 .item-26Dhrx[aria-checked=true]{
-    background: #fff2;
+    background: #0002;
 }
 
 .radioIconForeground-XwlXQN{
-    color: var(--color);
+    color: var(--themeColor1);
     transition: r 300ms;
 }
 
@@ -447,7 +447,7 @@
 
 /* --+ Privacy & Safety Radio Buttons */
 .radioBar-bMNUI-[style^="--radio-bar-accent-color:"] .radioIconForeground-XwlXQN{
-    color: var(--radio-bar-accent-color);
+    color: var(--themeColor1);
 }
 :root .switch-3wwwcV{
     width: 36px;
@@ -458,7 +458,7 @@
 }
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ::before{
-    background: var(--color);
+    background: var(--themeColor1);
 }
 
 .switch-3wwwcV:before, .switch-3wwwcV:active::before{
@@ -533,7 +533,7 @@
 }
 /* --+ Specific buttons */
 .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:active{
-    background: var(--color);
+    background: var(--themeColor1);
 }
 
 .lookOutlined-3sRXeN:hover::after, .lookGhost-2Fn_0-.colorBrand-3pXr91::after{
@@ -549,13 +549,13 @@
 }
 
 .lookOutlined-3sRXeN.colorBrand-3pXr91{
-    border-color: var(--color);
-    color: var(--color);
+    border-color: var(--themeColor1);
+    color: var(--themeColor1);
 }
 
 .lookGhost-2Fn_0-.colorBrand-3pXr91{
     background: transparent;
-    color: var(--color);
+    color: var(--themeColor1);
 }
 
 /* -+ Radio buttons */
