@@ -1,0 +1,9 @@
+{
+    "name": "bloomify",
+    "description": "https://bloomify.me",
+    "version": "6.0",
+    "author": "mistine",
+    "theme": "theme.css",
+    "license": "unknown",
+	"consent": "false"
+}
