@@ -32,11 +32,11 @@
   --homeImageSize: cover;
 
   --backgroundColor: rgba(0,0,0,1);
-  --backgroundImage: url('https://cdna.artstation.com/p/assets/images/images/031/600/148/large/grafit-studio-illustration-4.jpg?1604073114&dl=1');
+  --backgroundImage: url('https://cdnb.artstation.com/p/assets/images/images/033/810/467/4k/ismail-inceoglu-technicians-on-call.jpg?1610628348&dl=1');
   --backgroundPosition: center;
   --backgroundSize: cover;
   --backgroundRepeat: no-repeat;
-  --backgroundBlur: 5px;
+  --backgroundBlur: 15px;
   --backgroundOpacity: .4;
 
   --backgroundCode: rgba(0,0,0,.25);
@@ -91,7 +91,8 @@
 
 .title-3w8xhj,
 .overflow-WK90gt,
-.mainContent-2h-GEV > h2
+.mainContent-2h-GEV > h2,
+.wrapper-PY0fhH
 {
   color: var(--themeColor1) !important;
 }
@@ -176,10 +177,6 @@
     display: none;
 }
 
-.base-1x0h_U{
-    font-weight: 400;
-}
-
 .messages-3amgkR::-webkit-scrollbar{
     width: 10px;
 }
@@ -202,7 +199,6 @@
     padding: 0;
 }
 
-
 .channelTextArea-rNsIhG, .scrollableContainer-2NUZem{
     border-radius: 0;
     background: transparent;
@@ -221,7 +217,7 @@
 }
 
 .wrapper-2aW0bm{
-    background: #fff2;
+    background: #2222;
     backdrop-filter: blur(10px);
 }
 
@@ -249,7 +245,7 @@
 
 .menu-3sdvDG{
     border-radius: 6px;
-    background: #fff2;
+    background: #3333;
     overflow: auto;
 }
 
@@ -260,7 +256,7 @@
     left:0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 
 .glasscord .menu-3sdvDG::before{
@@ -269,7 +265,7 @@
 }
 
 :root .scroller-3BxosC{
-    background-color: #0005;
+    background-color: #0008;
     padding: 0px 0;
     overflow:  auto !important;
 }
@@ -283,7 +279,7 @@
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O){
-    background: #0003;
+    background: #0004;
 }
 
 .labelContainer-1BLJti{
@@ -291,6 +287,12 @@
     padding: 10px 16px;
     font-weight: 400;
     margin: 0;
+}
+
+.container-1taM1r,
+.header-2V-4Sw {
+	-webkit-box-color: none;
+	box-shadow: none;
 }
 
 .colorDefault-2K3EoJ{
@@ -365,7 +367,7 @@
 .card-3Qj_Yx{
     background: #fff2;
     border-radius: 10px;
-    border: none;1t
+    border: none;
 }
 .background-1QDuV2{
     background: #fff2;
@@ -414,11 +416,6 @@
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5{
-    font-weight: 400;
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .label-3aiqT2{
-    text-transform: unset;
     font-weight: 400;
 }
 
@@ -508,30 +505,14 @@
     padding-top: 120%;
     transition: width .3s ease-out, padding-top .3s ease-out;
 }
-/* + Settings */
-
-.layer-3QrUeG,
-.standardSidebarView-3F1I7i{
-    background: transparent;
-}
-
-.standardSidebarView-3F1I7i{
-    backdrop-filter: blur(2em);
-}
-
-.glasscord .standardSidebarView-3F1I7i{
-    backdrop-filter: none;
-}
 
 /* -+ Sidebar Region */
-.sidebarRegionScroller-3MXcoP{
-    background: transparent;
+.sidebarRegionScroller-3MXcoP,
+.sidebarRegion-VFTUkN
+{
+    background-color: transparent !important;
 }
 
-.h2-2gWE-o, .h3-3PDeKG, .h4-AQvcAz, .h5-18_1nd{
-    font-weight: 400;
-    text-transform: none;
-}
 /* --+ Specific buttons */
 .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorBrand-3pXr91:active{
     background: var(--themeColor1);
@@ -544,7 +525,7 @@
     left:0;
     width: 100%;
     height: 100%;
-    background: currentColor;
+    background: var(--themeColor1);
     opacity: .2;
     z-index: -1;
 }
@@ -566,4 +547,12 @@
 @keyframes fade {
     from{opacity: 0;}
     to{opacity: 1;}    
+}
+/* --+ Boost */
+.disableColor-MwOAZf, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc{
+    color: var(--themeColor2);
+}
+/* -+ Blur fix */
+.popout-2iWAc-{
+    -webkit-filter: unset;
 }
