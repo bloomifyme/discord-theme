@@ -61,7 +61,8 @@
 .sidebar-CFHs9e, 
 .content-3QAtGj, 
 .separator-2nZzUB,
-.typeWindows-1za-n7
+.typeWindows-1za-n7,
+.content-1o0f9g
 {
 	background-color: transparent !important;
 	background: transparent !important;
@@ -167,6 +168,17 @@
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx{
     background: transparent;
     text-align: center;
+}
+
+.content-1o0f9g {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.divider-3_HH5L {
+	margin-top: 25px !important;
+	margin-bottom: 20px !important;
+	border-top: none;
 }
 
 .divider-3FBTu8{
