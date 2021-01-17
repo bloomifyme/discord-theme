@@ -170,6 +170,14 @@
     text-align: center;
 }
 
+.scrollbarGhostHairline-1mSOM1 {
+	padding-left: 7px !important;
+}
+
+.hljs::after {
+	content: none;
+}
+
 .content-1o0f9g {
 	font-size: 14px;
 	text-transform: uppercase;
